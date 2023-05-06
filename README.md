@@ -2,7 +2,12 @@
 This is the GitHub repository containing source code, schematic and 3D models for ChipChamp: https://vonkonow.com/wordpress/ChipChamp/
 
 ChipChamp is an open-source gaming platform built to increase the understanding of how hardware and software really works.
-It is designed to be beginner friendly, affordable, and playful.
+It is designed to be **beginner friendly**, **affordable**, and **playful**.
+
+![image](ChipChamp.jpg)
+
+ChipChamp appears as a USB drive when connected to a computer and games can be programmed directly in CircuitPython with a text editor.  I have made a package of basic games as inspiration and starting point for you to create new ones.
+
 > In many ways ChipChamp is a retro dream console like the Pico-8, only in physical form ;)
 
 There are similar projects available, here are some advantages with ChipChamp:
@@ -13,7 +18,7 @@ There are similar projects available, here are some advantages with ChipChamp:
 -	Built in internet connection and multiplayer support over Wi-Fi.
 -	Quite powerful, it should be able to run Nintendo emulators and even DOOM (remains to be seen).
 
-##Specification
+## Specification
 -	Processor: ESP32-S2 processor with USB-OTG, 4MB Flash and 2MB PSRAM. 
 -	Display: 160x128 pixel TFT with 65536 colors (ST7735 driver).
 -	Control: D PAD and A, B keys for input, using quiet switches with low activation force.
